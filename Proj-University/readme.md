@@ -1,0 +1,1 @@
+Um site de uma universidade fictícia realizado com HTML básico.

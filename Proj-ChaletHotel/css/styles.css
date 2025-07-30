@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff url(../images/bg.png);
+  font-family: "JetBrains Mono", monospace;
+  margin: 15px;
+}
+
+#container {
+  background: #ede9cc;
+  margin: 0 auto;
+  min-width: 740px;
+}
+
+#cabecalho {
+  background: #dbcd87;
+  height: 15.4em;
+  max-width: 1180px;
+  min-height: 250px;
+}
+
+#logo {
+  background: url(../images/topo-imagem-principal.png) no-repeat;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo a {
+  background: url(../images/logo.png) no-repeat;
+  height: 66px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  text-indent: -9999px;
+  width: 151px;
+  z-index: 3;
+}
+
+#menu {
+  background: url(../images/topo-imagem-lateral.png) no-repeat;
+  height: 250px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 450px;
+  z-index: 2;
+}
